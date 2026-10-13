@@ -1,27 +1,23 @@
 # Project Index
 
-## Featured Projects
+## Products
 
-1. EOS — Emergency Operating System
-2. BrightScale AI Assistant
-3. AbreUSA
-4. Lead Marketplace SaaS
-5. TimeTrack PWA
+1. **BrightScale Tracker** — project control for remodeling contractors (flagship) · https://github.com/libanius/BrightScale-Tracker
+2. **EOS — Emergency Operating System** — family preparedness and resilience platform · https://github.com/libanius/EOS-app
+3. **TimeTrack** — crew hours and payroll PWA · https://github.com/libanius/Time-tracker
+4. **AI front office** — phone receptionist agents and lead-capture bot (private)
+
+## Concepts and case studies
+
+- BrightScale AI Assistant
+- Lead Marketplace SaaS
+- AbreUSA Memory System
 
 ## Frameworks
 
 1. AI Evaluation Framework
 2. Prompt Design Framework
 
-## Portfolio Goal
+## Portfolio goal
 
-This repository is designed to support applications for:
-
-- AI Trainer
-- AI Evaluator
-- RLHF Specialist
-- Model Evaluator
-- AI Operations Specialist
-- Prompt Engineer
-- Multilingual AI Reviewer
-- Construction / Business Domain Expert for AI
+Present BrightScale's construction software and AI products to investors, partners and clients: SaaS for remodelers, designers and property managers, and custom AI-powered tools for construction and home-services companies.

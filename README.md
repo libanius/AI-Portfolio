@@ -1,179 +1,70 @@
-# Paulo Libanio Neto — AI Portfolio
+<p align="center">
+  <img src="assets/banner.png" alt="Paulo Libânio Neto — Founder, BrightScale Contractor. Software built on the jobsite." width="100%">
+</p>
 
-**AI Trainer | AI Product Builder | Operations & Construction Domain Expert**  
-Florida, USA | Portuguese • English • Spanish
+# Construction × AI — Product Portfolio
 
-This portfolio presents selected AI and software projects focused on practical AI implementation, prompt engineering, AI agent design, workflow automation, model evaluation, and domain-specific reasoning.
+**Paulo Libânio Neto** · Founder, BrightScale Contractor · Project Manager, South Florida
+Portuguese · English · Spanish · contact@brightscalegroup.com
 
-My background combines hands-on business operations, construction project management, software development, and applied AI product building.
-
----
-
-## Core Positioning
-
-I am focused on roles such as:
-
-- AI Trainer
-- AI Evaluator
-- RLHF Specialist
-- Model Evaluator
-- Prompt Engineer
-- AI Operations Specialist
-- AI Workflow Designer
-- Construction / Business Subject Matter Expert for AI
+I build software and AI systems for construction and home services, from the point of view of the person who has to deliver the job. Every product here started as a problem I had on a real project.
 
 ---
 
-## What I Bring to AI Training
+## Why this portfolio is different
 
-### Model Evaluation
-
-Experience evaluating AI responses for:
-
-- Accuracy
-- Instruction following
-- Reasoning quality
-- Completeness
-- Safety
-- Tone
-- Practical usefulness
-- Multilingual quality
-
-### Prompt Engineering
-
-Experience designing prompts for:
-
-- Customer service agents
-- Sales qualification
-- Construction workflows
-- Business consulting
-- Emergency decision support
-- Bilingual and multilingual use cases
-
-### Domain Expertise
-
-Strong real-world experience in:
-
-- Construction and remodeling
-- Project management
-- Small business operations
-- Customer service
-- Entrepreneurship
-- Theology and biblical studies
-- Personal finance
-- Digital marketing
-- Software product design
+| Jobsite experience | Product experience |
+|---|---|
+| 2,500+ units managed across 6 multifamily renovation projects | Production apps used on real jobs (PWA, Next.js, Supabase) |
+| ~30 units/month completion pace across subcontracted crews | AI agents for phone, chat and lead intake |
+| Hands-on trades: flooring, drywall, paint, stucco, carpentry, kitchens, baths | Retrieval-grounded assistants with deterministic safety rules |
+| Creator of the **Smart Remodeling** method | Products that encode that method in software |
 
 ---
 
-## Featured Projects
+## Products
 
-### 1. EOS — Emergency Operating System
+### 1. BrightScale Tracker — flagship for construction
+<img src="assets/brightscale-tracker.png" alt="BrightScale Tracker screens" width="100%">
 
-A bilingual emergency decision platform designed to help families make critical decisions during crisis situations.
+Turns a signed estimate into one live plan for the homeowner, the designer and the crew: scopes, tasks, one subcontractor per scope, project financials and a progress link for the client. In use on BrightScale's own projects.
+**[Launch page and screenshots →](https://github.com/libanius/BrightScale-Tracker)**
 
-Focus areas:
+<img src="assets/smart-remodeling.png" alt="Smart Remodeling: Scope, Model, Alignment, Rhythm, Time" width="100%">
 
-- AI-assisted decision support
-- Emergency workflows
-- Offline-first thinking
-- Bilingual user experience
-- Structured reasoning and decision trees
+### 2. EOS — Emergency Operating System
+<img src="assets/eos.png" alt="EOS landing page and decision engine" width="100%">
 
-[Read the case study](./case-studies/EOS.md)
+Bilingual preparedness platform for families facing hurricanes, floods and grid failures. Live NWS/NHC/USGS hazards, a household-level supply model, an offline family plan, and an AI assistant whose rule-based verdict the model cannot override. The deepest codebase in the portfolio.
+**[Launch page →](https://github.com/libanius/EOS-app)** · [Case study](./case-studies/EOS.md)
 
----
+### 3. TimeTrack — crew hours and payroll
+Offline-first PWA for check-ins by project and hourly rate, payroll reports, PDF export and GitHub backup.
+**[Repository →](https://github.com/libanius/Time-tracker)** · [Case study](./case-studies/TimeTrack.md)
 
-### 2. BrightScale AI Assistant
+### 4. AI front office for contractors
+Phone receptionist agents (Vapi + Google Calendar via Make.com) and a lead-capture bot that delivers qualified leads to the owner's phone on Telegram. Private builds.
+[Case study: BrightScale AI Assistant](./case-studies/BrightScale-AI-Assistant.md)
 
-An AI-powered sales and customer service assistant for a home services business.
-
-Focus areas:
-
-- Lead qualification
-- Pricing guidance
-- Service recommendation
-- Customer service automation
-- Multilingual communication
-- Escalation workflows
-
-[Read the case study](./case-studies/BrightScale-AI-Assistant.md)
+### Concepts and earlier work
+- **Lead Marketplace SaaS** — homeowners ↔ local pros, credit-based lead purchase · [Case study](./case-studies/Lead-Marketplace.md)
+- **AbreUSA** — AI-guided onboarding for Brazilian entrepreneurs opening a U.S. company, with a long-term memory architecture · [Case study](./case-studies/AbreUSA-Memory-System.md)
 
 ---
 
-### 3. AbreUSA
+## How I design AI systems
 
-A business onboarding platform concept helping Brazilian entrepreneurs understand and start the process of opening a company in the United States.
+- **Rules before the model.** Anything safety- or money-critical is decided by deterministic logic; the model explains, it doesn't overrule.
+- **Ground answers in real sources.** Curated knowledge bases and retrieval instead of open-ended generation.
+- **Escalate to a human on purpose.** Agents know when to hand off, and pass a summary when they do.
+- **Prove every claim.** Features are traced to tests before they appear in marketing.
 
-Focus areas:
-
-- AI-assisted onboarding
-- Bilingual business education
-- Lead qualification
-- Conversion-focused UX
-- Entrepreneur guidance
-
-[Read the case study](./case-studies/AbreUSA.md)
+Frameworks: [AI Evaluation Framework](./frameworks/AI-Evaluation-Framework.md) · [Prompt Design Framework](./frameworks/Prompt-Design-Framework.md)
 
 ---
 
-### 4. Lead Marketplace SaaS
+## Work with me
 
-A SaaS concept for connecting homeowners with local service professionals through a lead marketplace.
-
-Focus areas:
-
-- Supabase architecture
-- Role-based dashboards
-- Stripe payments
-- Lead purchase workflows
-- AI-assisted product planning
-
-[Read the case study](./case-studies/Lead-Marketplace.md)
-
----
-
-### 5. TimeTrack PWA
-
-A Progressive Web App for contractor time tracking and payroll reporting.
-
-Focus areas:
-
-- Contractor workforce tracking
-- Project-based hours
-- Payroll reports
-- IndexedDB persistence
-- GitHub backup / restore logic
-
-[Read the case study](./case-studies/TimeTrack.md)
-
----
-
-## AI Evaluation Framework
-
-I use a practical evaluation framework based on real-world usefulness and quality control.
-
-[See framework](./frameworks/AI-Evaluation-Framework.md)
-
----
-
-## Prompt Design Framework
-
-I design AI agents using goals, constraints, context, escalation logic, and success criteria.
-
-[See framework](./frameworks/Prompt-Design-Framework.md)
-
----
-
-## Languages
-
-- Portuguese — Native
-- English — Fluent / Professional Working Proficiency
-- Spanish — Professional Working Proficiency
-- German — Basic
-
----
-
-## Contact
-
-GitHub: [github.com/libanius](https://github.com/libanius)
+- **SaaS:** BrightScale Tracker for remodelers, interior designers and property managers
+- **Custom builds:** trackers, estimators, client portals and AI assistants shaped to your operation
+- **Contact:** contact@brightscalegroup.com · 954-553-9535 · [brightscalegroup.com](https://www.brightscalegroup.com)
